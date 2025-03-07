@@ -16,7 +16,12 @@ namespace Task1Project
             //NativeGCDTest(8723462536745223, 765412221883);
             //NativeGCDTest(2973948729384212, 87268364827634);
             //NativeGCDTest(1098304287349821, 125367765723);
-            //NativeGCDTest(2987349872934234, 78238486224);
+            NativeGCDTest(2987349872934234, 78238486224);
+
+            //EuclidGCDTest(8723462536745223, 765412221883);
+            //EuclidGCDTest(2973948729384212, 87268364827634);
+            //EuclidGCDTest(1098304287349821, 125367765723);
+            //EuclidGCDTest(2987349872934234, 78238486224);
 
             //NativeGCDTest(1500000, 1000000);
             //EuclidGCDTest(1500000, 1000000);
@@ -38,22 +43,28 @@ namespace Task1Project
             //FibRecursiveTest(3);
             //FibArrayTest(3);
 
-            FibRecursiveTest(40);
-            FibRecursiveTest(45);
-            FibRecursiveTest(50);
+            //FibRecursiveTest(40);
+            //FibRecursiveTest(45);
+            //FibRecursiveTest(50);
+            //FibRecursiveTest(55);
 
-            FibArrayTest(40);
-            FibArrayTest(45);
-            FibArrayTest(50);
+            //FibArrayTest(40);
+            //FibArrayTest(45);
+            //FibArrayTest(50);
 
+            //FibArrayTest(800);
 
-            //FibArrayTest(100);
+            //for (int i = 50; i <= 100; i+=5)
+            //{
+            //    FibArrayTest((ulong)i);
+            //}
+
             //FibArrayTest(250);
             //FibArrayTest(500);
             //FibArrayTest(1000);
             //FibArrayTest(5000);
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         static void NativeGCDTest(long a, long b)
