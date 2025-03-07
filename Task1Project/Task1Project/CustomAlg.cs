@@ -55,7 +55,7 @@ namespace Task1Project
             }
         }
 
-        public static long FibRecursive(long N)
+        public static ulong FibRecursive(ulong N)
         {
             try
             {
@@ -73,7 +73,7 @@ namespace Task1Project
             }
         }
 
-        public static long FibArray(long N)
+        public static ulong FibArray(ulong N)
         {
             try
             {
@@ -81,11 +81,11 @@ namespace Task1Project
                 else if (N == 1) return 1;
                 else
                 {
-                    long[] F = new long[N+1];
+                    ulong[] F = new ulong[N+1];
 
                     F[0] = 0; F[1] = 1;
 
-                    for (int i = 2; i < N+1; i++) {
+                    for (ulong i = 2; i < N+1; i++) {
                         F[i] = F[i-1] + F[i-2];
                     }
                     

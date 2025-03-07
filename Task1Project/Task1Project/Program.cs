@@ -38,15 +38,20 @@ namespace Task1Project
             //FibRecursiveTest(3);
             //FibArrayTest(3);
 
-            //FibRecursiveTest(40);
-            //FibRecursiveTest(45);
-            //FibRecursiveTest(50);
-            
-            FibArrayTest(100);
-            FibArrayTest(250);
-            FibArrayTest(500);
-            FibArrayTest(1000);
-            FibArrayTest(5000);
+            FibRecursiveTest(40);
+            FibRecursiveTest(45);
+            FibRecursiveTest(50);
+
+            FibArrayTest(40);
+            FibArrayTest(45);
+            FibArrayTest(50);
+
+
+            //FibArrayTest(100);
+            //FibArrayTest(250);
+            //FibArrayTest(500);
+            //FibArrayTest(1000);
+            //FibArrayTest(5000);
 
             Console.ReadKey();
         }
@@ -71,7 +76,7 @@ namespace Task1Project
             }
         }
 
-        static void FibRecursiveTest(long N)
+        static void FibRecursiveTest(ulong N)
         {
             Console.WriteLine();
             Console.Write($"Fib Recursive test N={N}");
@@ -81,7 +86,7 @@ namespace Task1Project
             }
         }
 
-        static void FibArrayTest(long N)
+        static void FibArrayTest(ulong N)
         {
             Console.WriteLine();
             Console.Write($"Fib Array test N={N}");
